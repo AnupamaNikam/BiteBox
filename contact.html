@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>ContactUs</h1>
+    <br>
+     <!--navigation bar-->
+    <nav>
+        <a href="index.html">Home |</a>
+        <a href="about.html">About |</a>
+        <a href="contact.html">Contact |</a>
+        <a href="menu.html">Menu </a>
+    </nav>
+    </header>
+    <main>
+        <hr>
+        <h2>Customer Regestration & Order Form</h2>
+        <form action="" method="">
+            <h3>Customer Information</h3>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter Full Name" required>
+            <span>*</span>
+            <br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email" required>
+            <span>*</span><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required placeholder="Enter Password">
+            <span>*</span><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter Phone no." required>
+            <span>*</span>
+            <br><br>
+
+            <h3>Order Information</h3>
+            <label for="quantity">Quantity :</label>
+            <input type="number" id="quantity" name="quantity" placeholder="Enter Quantity" required><span>*</span>
+            <br><br>
+            <label for="ddate">Prefferd Delivery Date</label>
+            <input type="date" name="ddate" id="ddate" placeholder="Select Date">
+            <br><br>
+
+            <label for="food">Select Food Item</label>
+            <select name="food" id="food">
+                <option value="Veg Pizza">Veg Pizza</option>
+                <option value="Cheese Burger">Cheese Burger</option>
+                <option value="White Sauce Pasta">White Sauce Pasta</option>
+                <option value="Veg Grilled Sandwich">Veg Grilled Sandwich</option>
+                <option value="Chocolate Brownie">Chocolate Brownie</option>
+            </select><br><br>
+
+            <h3>Payment Method</h3>
+          <input type="radio" name="Payment" id="cash">
+          <label for="cash">Cash</label> <br>
+
+          <input type="radio" name="Payment" id="card">
+          <label for="card">Card</label><br>
+
+           <input type="radio" name="payment" id="upi">
+           <label for="upi">UPI</label> <br><br>
+           <h3> Extras</h3>
+           <input type="checkbox" name="extras" id="cheese">
+          <label for="chese">Cheese</label>
+
+          <input type="checkbox" name="extras" id="drink">
+          <label for="drink">Drink</label>
+
+          <input type="checkbox" name="extras" id="dessert">
+          <label for="dessert">Dessert</label>
+
+          <h3>Delivery Instructions</h3><br>
+          <label for="Address">Address:</label>
+          <textarea name="Address" id="Address" rows="3" cols="40"></textarea>
+          <br><br>
+
+          <button type="submit">Place Order</button>
+          <button type="reset">Clear Form</button>
+        </form>
+        <hr>
+    </main>
+    <br>
+    <br><br>
+    <h2>Visit Our Website</h2>
+    <p><a href="https://www.google.com">Visit Google</a></p>    
+</body>
+</html>
